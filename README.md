@@ -17,3 +17,4 @@ comment pouvez-vous l'ajouter après coup et commiter les changements ?
 touch README.md
 git add README.md
 git commit -m "Ajout du fichier README.md"
+git push origin main
