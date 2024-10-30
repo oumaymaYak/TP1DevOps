@@ -12,3 +12,9 @@ de Git ?
 → git config user.email "nouvelle-adresse@example.com" 
 
 Partie 2: Création d'un nouveau projet
+6. Si vous avez oublié de créer un fichier README.md lors de l'initialisation du projet,
+comment pouvez-vous l'ajouter après coup et commiter les changements ?
+touch README.md
+git add README.md
+git commit -m "Ajout du fichier README.md"
+git push origin main
